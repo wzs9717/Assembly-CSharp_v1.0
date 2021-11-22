@@ -3965,6 +3965,7 @@ public class SuperController : MonoBehaviour
 	}
 
 	private void InitAtom(Atom atom)
+	// !!
 	{
 		atoms.Add(atom.uid, atom);
 		atomUIDs.Add(atom.uid);
