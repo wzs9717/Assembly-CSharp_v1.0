@@ -608,6 +608,7 @@ public class Atom : MonoBehaviour
 	}
 
 	private void Init()
+	// !!
 	{
 		if (wasInit)
 		{
@@ -1209,6 +1210,7 @@ public class Atom : MonoBehaviour
 			parentAtomSelectionPopup.setPopupValue(0, "None");
 			return;
 		}
+		
 		parentAtomSelectionPopup.numPopupValues = atomUIDs.Count + 1;
 		parentAtomSelectionPopup.setPopupValue(0, "None");
 		for (int i = 0; i < atomUIDs.Count; i++)

@@ -12,7 +12,9 @@ public class JSONStorable : MonoBehaviour
 	public string overrideId;
 
 	public string storeId
-	{
+	{ 
+
+		
 		get
 		{
 			if (overrideId == null || overrideId == string.Empty)
